@@ -36,3 +36,5 @@ let result = Boolean("0");     //   TRUE --> Strings of any length are TRUE, eve
 
 console.log(result);
 console.log(typeof result);
+
+//-----------------------------------------------------------
