@@ -26,13 +26,27 @@ let ninjas = ["Sean", "Ryu", "Chun-li"];
 
 // ARRAY METHODS
 
-// ----> JOIN                        (joins array elements, this method adds a comma to each element the array ) 
+// ----> .join                       (joins array elements, this method adds a comma to each value in the array. can use "-" etc. ) 
 //let result = ninjas.join (",");
+//console.log(result);
 
-// ----> Index Of                       (returns  position)
+
+// ----> .indexOf                       (returns  position)
 //let result = ninjas.indexOf("Chun-li");
+//console.log(result);
 
-// ----> Concatentate the array  (takes an array and concatenates another arrary with it)
-let result = ninjas.concat();
-console.log(result);
 
+// ----> .concat                        (takes an array and joins (Concatenates) another arrary with it)
+//let result = ninjas.concat(["Ken", "Crystal"]);
+//console.log(result);
+
+//----> .push                                              // appends item to the array
+// let result = ninjas.push("Ken");                        // returns length of new array (if 'result' is console.log)
+// console.log(result);
+// console.log(ninjas);                                    // considered destructive as it alters the original values
+
+//----> .pop
+let result = ninjas.pop();                              // removes and returns last item in array
+console.log(result);                                    //    
+                                                        // also considered destructive as it changes the original value
+//----------------------------------------------------
