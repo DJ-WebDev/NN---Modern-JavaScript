@@ -4,7 +4,7 @@ let age = 25;
 //console.log(age == 25);
 // --> loose comparison (different types can still be equal)
 //--------------------------------------------------------------------------- 
-
+// == sign is loose comparison, meaning different types can still be equal
 
 // strict comparison (different types cannot be equal)
 console.log(age === 25);        // TRUE -> 25 as a number is STRICTLY EQUAL to the variable 25
