@@ -1,4 +1,4 @@
-// Control Flow:
+// Control FLow Techniques:
 
 // Someitmes using If Statements can be longwinded and redundant
 // For Example:
