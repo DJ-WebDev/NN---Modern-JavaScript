@@ -27,4 +27,5 @@ let i = 3;
   i++;
 } while(i < 5);
 
-//  The DO While Loop will first Execute the {CodeBlock}, then it will loop until the condition evaluates to false
+//  The DO While Loop will  Execute the {CodeBlock} ---> FIRST, regardless if the condition is true or false.
+// then it will loop until the condition evaluates to false
