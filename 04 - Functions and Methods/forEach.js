@@ -7,6 +7,15 @@
 
 let people = ["Mario", "Luigi", "Ryu", "Shaun", "Chun-Li"];
 
-people.forEach(function(){
-  console.log("something");
-});   // built-in Array Method (iterates over an array)
+// people.forEach((person, index) => {       // we can add two paramters to this callback function 
+//   console.log(index, person);
+// }); 
+
+// Callback Functions are functions that are passed through as arguments
+
+// ANOTHER WAY:
+
+const logPerson = (person, index) => {
+  console.log(`${index} - Hello ${person}`)};
+
+people.forEach(logPerson);    // --> best to write Callback Functions directly here)
