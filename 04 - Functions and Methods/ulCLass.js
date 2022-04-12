@@ -32,6 +32,10 @@ people.forEach (person =>{    //callback function (take in the person which is t
   html += `<li style="color: purple">${person}</li>`;   // appends this HTML template to each iteration -
   //  += Cocatenates the HTML value (an empty ${template string}) with another `${template string}` containing the HTML Code
 });
-
+        // logs the HTML template to the console 
 console.log(html);   // But How do we ouput this to the browser??? 
-ul.innerHTML = html;  // Places the HTML template we created in the <ul></ul> element of the index.html file
+ul.innerHTML = html;  // -->  Places the HTML template we created in the <ul></ul> element of the index.html file
+
+
+//------------------------------------------------------------------------------------------------------------------
+// END OF LESSON
