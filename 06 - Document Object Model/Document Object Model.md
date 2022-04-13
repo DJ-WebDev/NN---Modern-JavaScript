@@ -34,7 +34,7 @@ document.getElementById (loads of different get methods)
 
 We can use these properties and methods to interact with the HTML
 the DOM also describes how a page visually looks
-Think of the document as a heirarchal tree of nodes
+Think of the document as a hierarchal tree of nodes
 
 //-------------------------------------------------------------
 
