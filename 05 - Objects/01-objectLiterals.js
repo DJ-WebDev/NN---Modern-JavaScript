@@ -39,10 +39,11 @@ let user = {
 console.log(user);
 console.log(user.name);      // Access properties and log them using dotNotation
 
-user.age = 35;               // How to update a property of an object with dotNotation
+user.age = 35;                // How to update a property of an object with dotNotation
+user.name = "Mario";          // How to update a property of an object with dotNotation
 console.log(user.age)        // Access properties using dotNotation
 
-console.log(user["email"])   // [Square Bracket Notation]  - Another way to access and update properties 
+console.log(user["name"])   // [Square Bracket Notation]  - Another way to access and update properties 
 user["name"] = "Chun-Li";    // update name property     
 console.log(user);             
 
@@ -52,6 +53,6 @@ console.log(user);
 const key = "location"   // passing the property "location" into the variable: key
 console.log(user[key]);  // ---> Same as: console.log(user["location"])  - but with no variable assigned to it
 
-console .log(typeof user);
+console .log(typeof user);  // logs the data type of the object, user
 
 //---------------------------------------------------------------------------------------
