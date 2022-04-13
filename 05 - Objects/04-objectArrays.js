@@ -1,11 +1,22 @@
-// forEach array method, Callback Function
+// Storing Objects in an array
+// Lets make each blog an object in an array
+
+// const blogs = [
+//   { title: "Why Mac & Cheese Rules!", likes: 30 },
+//   { title: "10 Things To Make With Marmite!", likes: 50 },
+// ];
+
+// console.log(blogs);  // logs the blogs array to the console
 
 let user = {
   firstName: "Crystal",    
   age:30,             
   email: "crystal@thenetninja.co.uk",
   location: "Berlin",
-  blogs: ["Why Mac & Cheese Rules!","10 Things To Make With Marmite!"],
+  blogs: [ 
+    { title: "Why Mac & Cheese Rules!", likes: 30 },
+    { title: "10 Things To Make With Marmite!", likes: 50 },
+],
   login(){      
     console.log("The User Logged In");
   },
@@ -16,7 +27,7 @@ let user = {
     //console.log(this.blogs);
     console.log ("This User Has Written The Following Blogs");           
     this.blogs.forEach(blog => {  //
-      console.log(blog);         // logs each item in the array to the console
+      console.log(blog.title, blog.likes);         // logs each item in the array to the console
     });
   },
 };                   
