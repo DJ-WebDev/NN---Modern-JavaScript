@@ -51,3 +51,5 @@ const people = ["Mario", "Luigi", "Yoshi"]; // database
  people.forEach(person => {   // we can do this with a Callback Function
    content.innerHTML += `<p>${person}</p>`; // Updates the HTML in the browser
  });
+
+  
