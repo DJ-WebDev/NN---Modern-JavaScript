@@ -21,11 +21,17 @@ because we are grabbing 2 error classes (can name it anything)
 ie --> -- We cannot use forEach method on an HTML Collection
   ---------------------------------------------------------------------------
 
-  Lets grab a reference to all the P tags in the document
-Get elements by their tag name  */
+--> Lets grab a reference to all the P tags in the document
 
-const paras = document.getElementsByTagName("p");
+  Get elements by their tag name  */
+const paras = document.getElementsByTagName("p"); //(pass the tag name as a string)
 console.log(paras);  // logs an HTML collection with the 3 <p></p> elements 
 console.log(paras[1]) // Isolate single <p></p> tag
+console.log
 
-/* Similar method to Query Selector   */
+/* Similar to Query Selector method, can select all of these elements in a similar way    
+
+---> All of these methods give us different ways to query the DOM 
+----------------------------------------------------------------
+*/
+
