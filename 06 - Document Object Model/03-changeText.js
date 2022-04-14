@@ -35,6 +35,7 @@ Lets use the query selector to select a <P> element, and change the text inside 
  // This is how we can change the text
 //---------------------------------------------------------------
 
+<<<<<<< HEAD
 // How do we change the actual HTML code inside the DOM?
 //const content = document.querySelector(" .content");
 
@@ -53,3 +54,5 @@ const people = ["Mario", "Luigi", "Yoshi"]; // database
  });
 
   
+=======
+>>>>>>> e6ce5fb9cd6a9cbcfc95afbb4e3fa1b67474a0f7
