@@ -35,3 +35,4 @@ paras.forEach(p => { // cycle through p elements to search for content that incl
 const title = document.querySelector(".title");
 
 title.classList.toggle("test");
+//----------------------------------------------------------------------------------------
